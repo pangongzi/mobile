@@ -1,0 +1,38 @@
+{
+  "name": "pangongzi/mobile",
+  "description": "高性能中国大陆手机号码归属地查询库，基于二进制数据文件实现，支持毫秒级查询响应",
+  "type": "library",
+  "keywords": [
+    "php",
+    "mobile",
+    "location",
+    "phone-number",
+    "geolocation",
+    "china-mobile",
+    "手机号归属地",
+    "归属地查询"
+  ],
+  "homepage": "https://github.com/pangongzi/mobile",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pangongzi",
+      "email": "pangongzi1989@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pangongzi\\Mobile\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
