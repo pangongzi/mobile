@@ -23,7 +23,7 @@ namespace Pangongzi\Mobile;
 class MobileLocator
 {
   // 默认数据文件路径
-  private const DEFAULT_DATA_FILE = __DIR__ . '/data/mobile.dat';
+  private const DEFAULT_DATA_FILE = __DIR__ . '/db.dat';
 
   // 运营商类型映射
   private const OPERATOR_TYPES = [
