@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/pangongzi/mobile/v/stable)](https://packagist.org/packages/pangongzi/mobile)
 [![Total Downloads](https://poser.pugx.org/pangongzi/mobile/downloads)](https://packagist.org/packages/pangongzi/mobile)
 [![License](https://poser.pugx.org/pangongzi/mobile/license)](https://packagist.org/packages/pangongzi/mobile)
-[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.3-blue)](https://www.php.net/)
+[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-blue)](https://www.php.net/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/pangongzi/mobile/actions)
 
 ## 📱 项目简介
