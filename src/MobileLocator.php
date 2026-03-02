@@ -125,10 +125,7 @@ class MobileLocator
 
       if ($currentIndexData['prefix'] == $mobilePrefix) {
         // 找到匹配项，解析详细信息
-        return $this->parseLocationInfo(
-          $currentIndexData['offset'],
-          $currentIndexData['type']
-        );
+        return $this->parseLocationInfo($currentIndexData['offset'], $currentIndexData['type']);
       } elseif ($currentIndexData['prefix'] < $mobilePrefix) {
         $left = $mid + 1;
       } else {
@@ -205,6 +202,7 @@ class MobileLocator
       $result['zip_code'],
       $result['area_code']
     ]);
+
     $result['info'] = implode(' | ', $infoParts);
 
     return $result;
